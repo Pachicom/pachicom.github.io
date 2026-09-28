@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Михаила / Pachicom — FullStack Developer.">
+  <link rel="icon" type="image/jpeg" href="logo.jfif">
+  <title>Pachicom — FullStack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="grid-bg"></div>
+
+  <header class="header">
+    <a class="logo" href="#home"><span>PACHICOM</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+      <span class="theme-icon">☾</span>
+    </button>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="status"><span></span> AVAILABLE FOR NEW IDEAS</div>
+        <p class="eyebrow">01 / PROFILE</p>
+        <h1>Михаил<br><span>/ Pachicom</span></h1>
+        <h2>FullStack <strong>Developer</strong></h2>
+        <p class="hero-text">
+          Создаю веб-приложения, серверную логику и цифровые решения,
+          превращая идеи в работающие проекты.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Смотреть проекты <span>↗</span></a>
+          <a class="btn btn-ghost" href="https://github.com/Pachicom" data-placeholder="github">GitHub <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="photo-frame">
+          <img class="hero-photo" src="logo.jfif" alt="Pachicom visual">
+        </div>
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 / ABOUT</p>
+        <h2>Код — это инструмент.<br><span>Идея — это начало.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Я Михаил, разработчик под никнеймом <strong>Pachicom</strong>.
+            Мне нравится создавать собственные проекты, разбираться в том,
+            как работают приложения изнутри, и постоянно расширять свои
+            технические навыки.
+          </p>
+          <p>
+            Сейчас мой интерес постепенно смещается в сторону
+            <strong>кибербезопасности</strong>. Я хочу понимать не только
+            как создавать системы, но и как делать их надёжнее и безопаснее.
+          </p>
+        </div>
+
+        <div class="about-stats reveal">
+          <div class="stat"><span>01</span><strong>Web</strong><small>Applications</small></div>
+          <div class="stat"><span>02</span><strong>Backend</strong><small>Development</small></div>
+          <div class="stat"><span>03</span><strong>Security</strong><small>Future Focus</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 / STACK</p>
+        <h2>Инструменты, которыми<br><span>я создаю проекты.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span class="skill-num">01</span><h3>Python</h3><p>Основной язык для разработки и автоматизации.</p><b>PY</b></div>
+        <div class="skill-card reveal"><span class="skill-num">02</span><h3>Django</h3><p>Backend и полноценные веб-приложения.</p><b>DJ</b></div>
+        <div class="skill-card reveal"><span class="skill-num">03</span><h3>JavaScript</h3><p>Интерактивность и клиентская логика.</p><b>JS</b></div>
+        <div class="skill-card reveal"><span class="skill-num">04</span><h3>HTML / CSS</h3><p>Структура, дизайн и адаптивные интерфейсы.</p><b>WEB</b></div>
+        <div class="skill-card reveal"><span class="skill-num">05</span><h3>Java</h3><p>Объектно-ориентированное программирование.</p><b>JV</b></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-head reveal">
+        <p class="eyebrow">04 / PROJECTS</p>
+        <h2>То, что я<br><span>создаю.</span></h2>
+      </div>
+
+      <div class="projects-list">
+        <article class="project reveal">
+          <div class="project-index">01</div>
+          <div class="project-main">
+            <div class="project-meta">WEB APPLICATION / DJANGO</div>
+            <h3>MyBlog</h3>
+            <p>Веб-приложение для публикации и управления контентом с серверной частью на Django.</p>
+            <div class="tags"><span>Python</span><span>Django</span><span>HTML</span><span>CSS</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-index">02</div>
+          <div class="project-main">
+            <div class="project-meta">AUDIO / AUTOMATION</div>
+            <h3>Sounddeck</h3>
+            <p>Проект для управления звуками и взаимодействия с аудио через пользовательские действия.</p>
+            <div class="tags"><span>Python</span><span>Audio</span><span>Automation</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-index">03</div>
+          <div class="project-main">
+            <div class="project-meta">DIGITAL GUIDE / IN DEVELOPMENT</div>
+            <h3>Ulytau Guide</h3>
+            <p>Интерактивный цифровой путеводитель по Улытау с местами, маршрутами и картой.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Integrated Maps</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="focus section">
+      <div class="focus-panel reveal">
+        <div>
+          <p class="eyebrow">05 / NEXT</p>
+          <h2>Следующий уровень —<br><span>кибербезопасность.</span></h2>
+        </div>
+        <p>
+          Развиваю навыки разработки и постепенно углубляюсь
+          в область кибербезопасности, сетей и защищённых систем.
+        </p>
+        <div class="focus-line"><span></span><small>LEARNING IN PROGRESS</small></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Есть идея?<br><span>Давайте создадим.</span></h2>
+        <p>Открыт для новых проектов, интересных идей и общения.</p>
+
+        <div class="contact-actions">
+          <a class="contact-link" href="https://github.com/Pachicom" data-placeholder="github"><span>GitHub</span><b aria-hidden="true">&rarr;</b></a>
+          <!-- ВСТАВЬ СЮДА ССЫЛКУ НА TELEGRAM -->
+          <a class="contact-link" href="https://t.me/pachicom_i" data-placeholder="telegram"><span>Telegram</span><b aria-hidden="true">&rarr;</b></a>
+          <a class="contact-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=pachicom.dev@gmail.com" target="_blank" rel="noopener noreferrer"><span>Email</span><b aria-hidden="true">&rarr;</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>PACHICOM <span>/</span> FULLSTACK DEVELOPER</div>
+    <div>© 2026 Михаил</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
